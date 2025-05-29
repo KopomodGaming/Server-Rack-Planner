@@ -29,6 +29,8 @@ Installation
 
         Python 3.x installed on your system.
 
+        Tkinter: This is Python's standard GUI (Graphical User Interface) library and is typically included with Python installations.
+
         Pillow library: This is required for the "Export to Image" functionality.
 
     Install Pillow:
@@ -113,6 +115,10 @@ How to Use
 Troubleshooting
 
     "Failed to export image" error: Ensure you have the Pillow library installed (pip install Pillow). On Linux/macOS, you might also need system-level screenshot utilities (e.g., scrot on Linux, screencapture on macOS).
+
+    Invalid JSON file on load: Ensure the JSON file you are trying to load was created by the RackPlanner app and is not corrupted.
+
+    Components not fitting: If you reduce the rack size, components that no longer fit will be automatically removed. You will receive a warning.
 
     Invalid JSON file on load: Ensure the JSON file you are trying to load was created by the RackPlanner app and is not corrupted.
 
